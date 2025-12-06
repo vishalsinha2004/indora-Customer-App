@@ -1,0 +1,21 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Fixes the black screen issue */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+/* Ensures the map is visible */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 1; 
+}
