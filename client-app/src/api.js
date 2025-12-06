@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // Pointing to your Node Server
+  baseURL: 'https://indora.onrender.com', // Pointing to your Node Server
 });
 
 // Add a request interceptor to attach the Token if logged in
